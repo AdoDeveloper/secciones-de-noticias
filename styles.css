@@ -230,14 +230,14 @@ h3 {
     border-color: #ffffff;
 }
 
-.imgE4 {
+.imgE4-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.imgE4 img {
+.imgE4-div img {
     width: 600px;
     height: 300px;
     margin: 20px;
@@ -299,3 +299,112 @@ footer {
     text-align: center;
     font-size: 15px;
 }
+
+/* Estilos para dispositivos con un ancho mínimo de 250px y máximo de 450px */
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+    body {
+      font-size: 16px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  
+    .imgP,
+    .imgD,
+    .imgC,
+    .imgT,
+    .imgE,
+    .imgE4 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .imgP img,
+    .imgD img,
+    .imgC img,
+    .imgT img,
+    .imgE img,
+    .imgE4-div img {
+      max-width: 100%;
+      height: auto;
+      border-style: none;
+    }
+  
+    .seccion_politica,
+    .seccion_deportes,
+    .seccion_cultura,
+    .seccion_tecnologia,
+    .seccion_economia {
+      margin-bottom: 20px;
+    }
+  
+    .articulo_politica p,
+    .articulo_deporte p,
+    .articulo_cultura p,
+    .articulo_economia p,
+    .articulo_tecnologia p {
+      font-size: 16px;
+      line-height: 1.5;
+      column-count:initial;
+      column-rule-style:initial;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .footer-columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 130px;
+      }
+
+      .footer-column p{
+        text-align: center;
+        text-transform: none;
+
+      }
+    
+      .icon-footer {
+        width: 50px;
+        height: auto;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-right: 40px;
+      }
+    
+      .footer-title {
+        font-size: 60px;
+      }
+    
+      .footer-title2 {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+      }
+    
+      .footer-link {
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+      }
+
+      .copyright{
+        text-align: center;
+      }
+  }
+  
+  
+  
