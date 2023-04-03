@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Rufina&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/imagenes/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#noti {
+    font-family: 'Nabla', cursive;
+    font-size: 100px;
+    border-style: dotted;
+    background-image: linear-gradient(yellow, red, white);
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Rufina', serif;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    border-style: double;
+    display: block;
+    width: 200px;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Seccion Politica */
+
+.seccion_politica {
+    padding: 20px;
+}
+
+.articulo_politica p {
+    color: white;
+    text-align: justify;
+    column-count: 2;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    column-gap: 20px;
+    column-rule-style: solid;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.imgP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgP img {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: #f6fa04;
+}
+
+/* Seccion Deportes */
+
+.seccion_deportes {
+    padding: 20px;
+    border-top-style: dotted;
+    border-color: white;
+}
+
+.articulo_deporte p {
+    color: white;
+    text-align: justify;
+    column-count: 3;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    column-gap: 20px;
+    column-rule-style: solid;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.imgD {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgD img {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: #404040;
+}
+
+/* Seccion Cultura */
+
+.seccion_cultura {
+    padding: 20px;
+    border-top-style: dotted;
+    border-color: white;
+}
+
+.articulo_cultura p {
+    color: white;
+    text-align: justify;
+    column-count: 4;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    column-gap: 20px;
+    column-rule-style: solid;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.imgC {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgC img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #ffffff;
+}
+
+/* Seccion Tecnología */
+
+.seccion_tecnologia {
+    padding: 20px;
+    border-top-style: dotted;
+    border-color: white;
+}
+
+.articulo_tecnologia p {
+    color: white;
+    text-align: justify;
+    column-count: 2;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    column-gap: 20px;
+    column-rule-style: solid;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.imgT {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgT img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #ffffff;
+}
+
+/* Seccion Economía */
+
+.seccion_economia {
+    padding: 20px;
+    border-top-style: dotted;
+    border-color: white;
+}
+
+.articulo_economia p {
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+    column-gap: 20px;
+    column-rule-style: solid;
+    background-color: rgba(0, 0, 0, 0.6);
+    column-width: 300px;
+}
+
+.imgE {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgE img {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #ffffff;
+}
+
+.imgE4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgE4 img {
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+}
+
+
+footer {
+    background-color: #573B1B;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+.footer-columns {
+    display: flex;
+    align-items: center;
+    /* centra verticalmente los elementos */
+    justify-content: center;
+    align-items: center;
+    margin-right: 130px;
+}
+
+.footer-column {
+    margin: 60px;
+}
+
+.footer-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: 'Lobster', cursive;
+    color: white
+}
+
+.footer-title2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: auto;
+    margin: auto;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.icon-footer {
+    width: 150px;
+    margin-left: 45px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+}
